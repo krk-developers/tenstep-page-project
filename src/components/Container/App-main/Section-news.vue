@@ -1,6 +1,11 @@
 <template>
   <section class="section-news">
-news
+    <div class="top-bar"></div>
+    <div class="news-header section-header">
+      <h2>Aktualności</h2>
+      <h6>Bądź z nami na bierząco.</h6>
+    </div>
+    <div class="news-content"></div>
   </section>
 </template>
 
@@ -12,6 +17,12 @@ export default {
 
 <style lang="scss">
 .section-news{
-  height: 400px;
+  padding-bottom: 30px;
 }
+
+.news-content{
+  height: 500px;
+  background: hsl(320, 100%, 20%);
+}
+
 </style>
