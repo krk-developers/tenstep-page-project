@@ -31,4 +31,24 @@ main{
   width: 100%;
   min-height: 600px;
 }
+
+.top-bar{
+  height: 15px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: hsl(230, 80%, 40%);
+}
+
+.section-header{
+  padding: 20px;
+
+  h2{
+    margin: 0;
+  }
+
+  h6{
+    margin: 0;
+  }
+}
+
 </style>
