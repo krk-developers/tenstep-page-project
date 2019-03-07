@@ -16,10 +16,15 @@ export default {
 </script>
 
 <style lang="scss">
-body{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
   background: hsl(200, 100%, 80%);
+  font-family: 'Arial';
+  font-size: 16px;
 }
 </style>
